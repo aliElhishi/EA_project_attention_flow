@@ -1,3 +1,4 @@
+
 import torch
 import networkx as nx
 import numpy as np
@@ -15,11 +16,11 @@ def flow(attentions, fusion='mean'):
     to compute the attention flow (via a maximum flow algorithm) from the CLS token in the final layer
     to the input tokens. It returns a 2D heatmap (mask) showing the maximum attention flow for each image patch.
 
-    Parameters:
+    In:
       attentions (list[torch.Tensor]): List of attention tensors.
       fusion (str): Method to fuse attention heads. Options: 'mean', 'min', or 'max'.
 
-    Returns:
+    Out:
       heatmap (np.ndarray): 2D numpy array (e.g. 14x14) normalized to [0, 1] indicating the attention flow.
     """
 
