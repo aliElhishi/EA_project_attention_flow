@@ -1,7 +1,7 @@
 # EA_project_attention_flow
 
 This repository aims to study how attention flow can be used to determine which input tokens are given the most "weight" when it comes to decision making. We study its application on sentiment analysis tasks, as well as image classification. 
-We develop methods to evaluate how meaningful this information for classification. For that purpose, we study how carefully designed perturbations in the inputs affect the classification outcome. We also try to compare the performance of attention flow to other methods, notably *Attention rollout*.
+We develop methods to evaluate how meaningful this information for classification. For that purpose, we study how carefully designed perturbations in the inputs affect the classification outcome. We also try to compare the performance of attention flow to other methods, notably **Attention rollout**.
 
 ## Attack methods on sst2 dataset using BERT
 
